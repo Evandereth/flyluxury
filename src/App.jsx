@@ -3,23 +3,28 @@ function App() {
   const colors = [
     {
       id: 1,
-      color: "ivory"
+      color: "ivory",
+      className: "bg-ivory"
     },
     {
       id: 2,
-      color: "cream"
+      color: "cream",
+      className: "bg-cream"
     },
     {
       id: 3,
-      color: "sand"
+      color: "sand",
+      className: "bg-sand"
     },
     {
       id: 4,
-      color: "brass"
+      color: "brass",
+      className: "bg-brass"
     },
     {
       id: 5,
-      color: "brass-dar"
+      color: "brass-dar",
+      className: "bg-brass-dar"
     }
   ]
 
@@ -30,8 +35,8 @@ function App() {
     <section className="mx-auto my-0 p-3 flex flex-row justify-center align-center gap-1 flex-wrap">
         {
           colors.map(col => 
-            <div Key={col.Key} className={`w-[15em] h-[2em] bg-${col.color} text-center rounded-md`}>
-              <p>bg-{col.id}</p>
+            <div key={col.id} className={`w-[15em] h-[2em] ${col.className} text-center rounded-md`}>
+            <p>bg-{col.id}</p>
             </div>
           )
         }
