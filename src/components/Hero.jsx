@@ -3,14 +3,14 @@ import image from "../img/img1.jpg"
 export default function Hero() {
     return(
         <>
-            <section className=" w-full min-h-screen font-sans flex flex-col md:flex-row md:justify-center items-center gap-10 p-5 mt-10">
+            <section className=" w-full font-sans flex flex-col md:flex-row md:justify-center items-center gap-10 p-5 mt-10">
                 <div className="w-[90%] mt-20 md:w-[50%]">
                     <h2 className="uppercase text-[.8em] md:text-md lg:text-lg text-brass font-extralight">
                         rooms that feel as good as they look.
                     </h2>
 
                     <h1 className="text-ink font-semibold font-serif text-[2.5em] md:text-[2.8em] lg:text-[3.5em] py-3">
-                        Creating Interiors that Inspire living...
+                        Creating Interiors that Inspire living
                     </h1>
 
                     <p className="py-2 my-2 md:my-1 lg:my-5 md:py-5 text-ink text-justify text-sm  lg:text-xl">
@@ -22,7 +22,7 @@ export default function Hero() {
                     </button>
                 </div>
 
-                <div className="bg-sand w-80 md:w-[20em] md:h-[24em] lg:w-[40em] lg:h-[40em] h-[40em] mx-auto my-5 rounded-t-full ">
+                <div className="bg-sand w-80 md:w-[20em] md:h-[24em] lg:w-[40em] h-[40em] mx-auto my-5 rounded-t-full ">
                     <img className="w-full h-full object-cover rounded-t-full hover:scale-101 transition-scale ease-in-out duration-300" src={image} alt="" />
                 </div>
 
