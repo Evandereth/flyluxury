@@ -4,16 +4,14 @@
     --font-serif: "Cormorant Garamond", Georgia, serif;
     --font-sans: "Jost", Helvetica, Arial, sans-serif;
 
-
-
-    /* --color-brown: #964B00; */
     --color-ivory: #FFFDF9;
     --color-cream: #F5EFE6;
     --color-sand: #E8DCC8;
-    --color-in: #2B2623;
+    --color-ink: #2B2623;
     --color-brass: #B08D57;
-    --color-brass-dar: #7A5C2E;
+    --color-brass-dark: #7A5C2E;
 }
 body{
-    @apply text-in font-sans font-light;
+    @apply bg-ivory text-ink font-sans font-light;
+    
 }
