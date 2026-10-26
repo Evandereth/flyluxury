@@ -35,7 +35,7 @@ export default function Navbar() {
 
     return(
         <> 
-            <nav className={`fixed w-[95%] h-15 md:h-18 p-2 border border-sand flex justify-between items-center rounded-lg z-10 font-serif text-brass-dark ${solid ? 'bg-ivory backdrop-blur' : 'bg-transparent'}`}>
+            <nav className={`fixed top-5 w-[95%] h-15 md:h-18 p-2 border border-sand backdrop-blur flex justify-between items-center rounded-lg z-10 font-serif text-brass-dark ${solid ? 'bg-ivory backdrop-blur' : 'bg-transparent'}`}>
                 <div className="flex flex-nowrap gap-1 items-center">
                     <img className="w-12 object-cover" src={logo} alt="Fly Luxury brand logo" />
                     <h1 className="uppercase font-bold text-2xl border-b-2 font-serif text-brass-dark">fly luxury</h1>
@@ -76,7 +76,7 @@ export default function Navbar() {
             { document.documentElement.style.overflow = menu ? 'hidden' : ''}
 
 
-            <div className={`lg:hidden bg-transparent backdrop-blur-sm  fixed top-0 overflow-y-hidden w-[98%] h-screen z-50 transition-translate ease-in-out duration-500 ${menu ? "right-0" : "-right-full"} `}>
+            <div className={`lg:hidden bg-cream/70 backdrop-blur-sm  fixed top-0 overflow-y-hidden w-[98%] h-screen z-50 transition-translate ease-in-out duration-500 ${menu ? "right-0" : "-right-full"} `}>
 
                 <div className="w-full h-15 p-2 mt-2 flex justify-between items-center mb-5">
                     <div className="flex flex-nowrap items-center">
