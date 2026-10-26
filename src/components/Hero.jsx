@@ -1,4 +1,4 @@
-import image from "../img/img1.jpg"
+import image from "../img/img3.jpg"
 
 export default function Hero() {
     return(
@@ -22,7 +22,7 @@ export default function Hero() {
                     </button>
                 </div>
 
-                <div className="bg-sand w-80 md:w-[20em] md:h-[24em] lg:w-[40em] h-[40em] mx-auto my-5 rounded-t-full ">
+                <div className="bg-sand w-80 md:w-[20em] md:h-[24em] lg:h-[40em] lg:w-[40em] h-[40em] mx-auto my-5 rounded-t-full ">
                     <img className="w-full h-full object-cover rounded-t-full hover:scale-101 transition-scale ease-in-out duration-300" src={image} alt="" />
                 </div>
 
