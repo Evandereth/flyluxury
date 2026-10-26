@@ -73,7 +73,7 @@ export default function Navbar() {
             {/* :::::::::::::MOBILE MENU::::::::::::::::::: */}
 
 
-            { document.documentElement.style.overflow = menu ? 'hidden' : ''}
+            {/* { document.documentElement.style.overflow = menu ? 'hidden' : ''} */}
 
 
             <div className={`lg:hidden bg-cream/70 backdrop-blur-sm  fixed top-0 overflow-y-hidden w-[98%] h-screen z-50 transition-translate ease-in-out duration-500 ${menu ? "right-0" : "-right-full"} `}>
