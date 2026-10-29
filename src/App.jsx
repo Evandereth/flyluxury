@@ -2,6 +2,7 @@ import Portfolio from "./components/Portfolio"
 import Extra from "./components/Extra"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import Quote from "./components/Quote"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <main>
         <Hero />
         <Extra />
+        <Quote />
         <Portfolio />
       </main>
     </div>

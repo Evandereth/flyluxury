@@ -1,4 +1,4 @@
-import { Children, useEffect, useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 
 export default function Animation({children, delay=0, className=''}){
 
@@ -23,7 +23,7 @@ export default function Animation({children, delay=0, className=''}){
             <div 
             ref={ref} 
             style={{transitionDelay:`${delay}ms`}}
-            className={`transition duration-700 ease-out motion-reduce:transform-none motion-reduce:opacity-100 motion-reduce:none ${visible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'}${className}`}
+            className={`transition duration-700 ease-out motion-reduce:transform-none motion-reduce:opacity-100 motion-reduce:none ${visible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'} ${className}`}
             >
                 {children}
             </div>
