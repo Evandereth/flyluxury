@@ -24,8 +24,8 @@ export default function Services(){
             <section className="w-full px-6 py-20 md:py-32">
                 <Title name="Services" />
 
-                <div className="md:w-[90%] mx-auto my-20 flex justify-center items-center gap-10">
-                    <div className="hidden md:block w-250 h-150">
+                <div className="mx-auto my-20 flex flex-col md:flex-row justify-center items-center gap-10">
+                    <div className=" w-full h-70 md:w-10 md:h-50 lg:w-250 lg:h-150">
                         <img className="w-full h-full object-cover rounded-2xl" src={image1} alt="" />
                     </div>
                 <div>
@@ -38,7 +38,7 @@ export default function Services(){
 
                         {
                             serviceCard.map((card)=>(
-                                <div key={card.id} className="w-80 h-50 flex flex-col justify-between items-start border border-sand p-5 rounded-xl">
+                                <div key={card.id} className="w-80 h-50 md:50  lg:w-80 lg:h-50 flex flex-col justify-between items-start border border-sand p-5 rounded-xl">
                                     <h2 className="text-brass-dark">
                                         {card.id}
                                     </h2>
@@ -62,7 +62,7 @@ export default function Services(){
 
 
 
-                <div className="md:w-[90%] mx-auto flex justify-center items-center gap-10">
+                {/* <div className="md:w-[90%] mx-auto flex flex-col md:flex-row justify-center items-center gap-10">
                     <div>
                             <div>
                     <h2 className="mt-4 font-serif text-4xl leading-tight md:text-5xl">
@@ -90,10 +90,10 @@ export default function Services(){
                 </div>
                     </div>
 
-                    <div className="hidden md:block w-250 h-150">
+                    <div className="w-full h-70 lg:w-250 lg:h-150">
                         <img className="w-full h-full object-cover rounded-2xl" src={image2} alt="" />
                     </div>
-                </div>
+                </div> */}
 
                 
             </section>
