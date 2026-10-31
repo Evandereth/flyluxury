@@ -32,15 +32,15 @@ const cards = [
 
     return(
         <>
-            <section className="relative bg-white w-full rounded-2xl py-10 my-10">
+            <section className="relative w-full rounded-2xl py-10">
             <Animation>
 
                 
-                <div className="w-full flex gap-5 flex-wrap justify-center items-center mt-10">
+                <div className="mt-10 grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
                 {
                     cards.map((card)=>(
                         <Animation>
-                        <div delay={100} key={card.id} className="w-70 h-50 md:w-50 md:h-50 lg:w-80 lg:h-70 p-5 rounded-xl border border-sand flex flex-col justify-center ">
+                        <div delay={100} key={card.id} className="flex min-h-48 flex-col justify-center rounded-xl border border-sand p-5 sm:min-h-52 lg:min-h-64">
                                 {card.icon}
                                 <h2 className="font-bold text-ink py-5 lg:text-2xl">
                                     {card.title}

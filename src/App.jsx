@@ -13,8 +13,11 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <Extra />
-        <Quote />
+        <div className="bg-white rounded-2xl my-10">
+          <Extra />
+          <Quote />
+        </div>
+
         <Portfolio />
         <Services />
       </main>

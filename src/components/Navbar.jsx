@@ -28,14 +28,14 @@ export default function Navbar() {
            window.removeEventListener("scroll", onScroll) 
            document.body.style.overflow=''
         } 
-    }, [])
+    }, [menu])
 
     const solid = scrolled || menu
     
 
     return(
         <> 
-            <nav className={`fixed top-5 w-[95%] h-15 md:h-18 p-2 border border-sand backdrop-blur flex justify-between items-center rounded-lg z-10 font-serif text-brass-dark ${solid ? 'bg-ivory backdrop-blur' : 'bg-transparent'}`}>
+            <nav className={`fixed left-1/2 top-5 z-10 flex h-15 w-[95%] -translate-x-1/2 items-center justify-between rounded-lg border border-brass-dark p-2 font-serif text-brass-dark backdrop-blur md:h-18 ${solid ? 'bg-ivory/70 backdrop-blur-md' : 'bg-ivory'}`}>
                 <div className="flex flex-nowrap gap-1 items-center">
                     <img className="w-12 object-cover" src={logo} alt="Fly Luxury brand logo" />
                     <h1 className="uppercase font-bold text-2xl border-b-2 font-serif text-brass-dark">fly luxury</h1>
