@@ -1,8 +1,12 @@
+import Title from "./Title"
+
 import Animation from './Animation'
 import image1 from '../img/img1.jpg'
 import image2 from '../img/img2.jpg'
 import image3 from '../img/img5.jpg'
 import image4 from '../img/img4.jpg'
+import image5 from '../img/img6.jpg'
+import image6 from '../img/img7.jpg'
 
 
 
@@ -15,6 +19,12 @@ const projects = [
     span: 'md:col-span-5', tone: 'from-sand to-[#CDB991]', height:'h-64 md:h-80 lg:h-[26rem]' },
   { title: 'Bedroom', type: 'Residential', city: 'Lagos', image: image2,
     span: 'md:col-span-9', tone: 'from-cream to-[#DDCDB0]', height:'h-64 md:h-80 lg:h-[26rem]' },
+    { title: 'Living Room', type: 'Residential', city: 'Lagos', image: image6,
+    span: 'md:col-span-8', tone: 'from-cream to-[#DDCDB0]', height:'h-64 md:h-80 lg:h-[26rem]' },
+    { title: 'Dining Room', type: 'Residential', city: 'Lagos', image: image5,
+    span: 'md:col-span-6', tone: 'from-cream to-[#DDCDB0]', height:'h-64 md:h-80 lg:h-[26rem]' }
+    
+    
 ]
 
 export default function Portfolio() {
@@ -23,14 +33,7 @@ export default function Portfolio() {
       <div className="mx-auto max-w-6xl">
         <Animation>
           <div className="mb-10 flex flex-wrap items-end justify-between gap-4 md:mb-14">
-            <div>
-              <p className="text-xs uppercase tracking-[0.28em] text-brass-dark">
-                Portfolio
-              </p>
-              <h2 className="mt-4 font-serif text-4xl leading-tight md:text-5xl">
-                Recent projects
-              </h2>
-            </div>
+           <Title name="portfolio" subName="Recent Projects" />
             <a
               href="#contact"
               className="border-b border-brass py-1 text-xs uppercase tracking-[0.18em] transition-colors hover:text-brass-dark"

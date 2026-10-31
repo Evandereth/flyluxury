@@ -1,3 +1,4 @@
+import Services from "./components/Services"
 import Portfolio from "./components/Portfolio"
 import Extra from "./components/Extra"
 import Hero from "./components/Hero"
@@ -15,6 +16,7 @@ function App() {
         <Extra />
         <Quote />
         <Portfolio />
+        <Services />
       </main>
     </div>
     </>
