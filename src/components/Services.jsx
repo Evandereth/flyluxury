@@ -21,7 +21,7 @@ export default function Services(){
 
     return(
         <>
-            <section id="services" className="w-full px-4 sm:px-6 my-10 py-12 sm:py-20 bg-sand rounded-2xl ">
+            <section id="services" className="w-full px-4 sm:px-6 my-10 py-12 sm:py-20 bg-cream rounded-2xl ">
                 <Title name="Services" subName="What we do" />
 
                 <div className="mx-auto my-12 sm:my-20 grid max-w-7xl items-center gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-10">

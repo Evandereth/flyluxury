@@ -4,7 +4,7 @@ import image from "../img/img-10.jpg"
 export default function Product() {
     return(
         <>
-            <section className="md:hidden bg-cream p-10 rounded-2xl">
+            <section className="md:hidden bg-sand py-10 px-4 rounded-2xl">
                 <div className="relative w-full h-100">
                     <img src={image} alt="Featured Product" className="w-full h-full object-cover rounded-2xl"/>
 
@@ -13,7 +13,7 @@ export default function Product() {
                             Featured Collection
                         </h1>
 
-                        <h2 className="text-ivory font-serif">
+                        <h2 className="text-cream font-serif">
                             Grin Curved Fabric Sofa
                         </h2>
 
