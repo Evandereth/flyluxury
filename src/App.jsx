@@ -1,3 +1,4 @@
+import Product from "./components/Product"
 import Services from "./components/Services"
 import Portfolio from "./components/Portfolio"
 import Extra from "./components/Extra"
@@ -20,6 +21,7 @@ function App() {
 
         <Portfolio />
         <Services />
+        <Product />
       </main>
     </div>
     </>
