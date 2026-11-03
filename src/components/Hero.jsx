@@ -8,21 +8,21 @@ export default function Hero() {
                 <Animation>
                     <div className="w-full mt-10  p-10 ">
                         <h2 className="uppercase text-[.8em] md:text-md lg:text-lg text-brass font-extralight">
-                            rooms that feel as good as they look.
+                            LUXURY REDEFINED THROUGH DESIGN.
                         </h2>
 
                         <h1 className="text-ink font-semibold font-serif text-[2.5em] md:text-[2.8em] lg:text-[3.5em] py-3 lg:w-[80%] leading-tight">
-                            Creating Interiors that Inspire living
+                            Elevating Spaces. Enriching Lifestyles.
                         </h1>
                         <Animation delay={200}>
                             <p className="py-2 my-2 md:my-1 lg:my-5 md:py-5 text-ink text-justify text-sm  lg:text-xl lg:w-[80%] leading-relaxed">
-                                <span className="text-brass underline">Fly Luxury</span> creates Interiors that blend beauty, comfort and functionality. Crafting spaces that harmonize modern aesthetics with timeless elegance, our contemprorary interior designs breathe life into every room, redefining the essence of chic living.
+                                At <span className="text-brass underline">Fly Luxury</span> we transform ordinary spaces into extraordinary experiences. Through thoughtful design, refined aesthetics and exceptional attention to detail, we create interiors that reflect your personality, inspire comfort and embody timeless luxury
                             </p>
                         </Animation>
                         
 
                         <button className="lg:block uppercase border text-[.8em] lg:text-lg font-extralight rounded-md py-2 px-5 lg:my-5 cursor-pointer border-sand transition-colors duration-300 bg-ink text-ivory hover:bg-ivory hover:text-ink ">
-                            book a consultation
+                            book a Design consultation
                         </button>
                     </div>
                 </Animation>
