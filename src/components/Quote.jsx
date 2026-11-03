@@ -8,7 +8,7 @@ export default function Quote(){
             <section className="w-[85%] lg:h-[30em] flex flex-col justify-start items-start gap-5 mx-auto p-5">
                 
                 <Title name="THE ART OF THOUGHTFUL DESIGN" subName="Spaces Designed Around You." />
-                <p className="text-ink text-justify text-[1em] lg:text-2xl border-l border-sand rounded-2xl p-5">
+                <p className="text-ink text-justify text-[1em] lg:text-2xl border-l border-sand rounded-2xl p-5 lg:p-10">
                     At <span className="text-brass underline">Fly Luxury Interior</span>, every space begins with a vision and evolves into a carefully crafted expression of style,comfort and individuality.
                     <br/><br/>
                     We take a personalised approach to interior design, combining creative thinking, premium materials and carefully selected finishes to create spaces that feel distinctive and effortlessly elegant.

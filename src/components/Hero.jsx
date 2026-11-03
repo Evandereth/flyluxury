@@ -6,12 +6,12 @@ export default function Hero() {
         <>
             <section className=" w-full md:w-[90%] font-sans flex flex-col md:flex-row md:justify-around items-center gap-10 p-5 mt-10 mx-auto">
                 <Animation>
-                    <div className="w-full mt-10  p-10 ">
+                    <div className="w-full mt-10  p-8 ">
                         <h2 className="uppercase text-[.8em] md:text-md lg:text-lg text-brass font-extralight">
                             LUXURY REDEFINED THROUGH DESIGN.
                         </h2>
 
-                        <h1 className="text-ink font-semibold font-serif text-[2.5em] md:text-[2.8em] lg:text-[3.5em] py-3 lg:w-[80%] leading-tight">
+                        <h1 className="text-ink font-semibold font-serif text-[2em] md:text-[2.8em] lg:text-[3.5em] py-3 lg:w-[80%] leading-tight">
                             Elevating Spaces. Enriching Lifestyles.
                         </h1>
                         <Animation delay={200}>
