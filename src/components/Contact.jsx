@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 
 const CONTACT = {
-  email: 'hello@flyluxuryinterior.com',
+  email: 'admin@flyluxuryinterior.com',
   whatsapp: '2349119239488',
   address: 'Lagos, Nigeria.',
 }

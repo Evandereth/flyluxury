@@ -5,7 +5,7 @@ header('X-Content-Type-Options: nosniff');
 // ---------- SETTINGS ----------
 
 $to       = 'ogunledunoluwatobi@gmail.com'; // where enquiries arrive
-$from     = 'hello@flyluxuryinterior.com'; // must be a real mailbox on your domain
+$from     = 'admin@flyluxuryinterior.com'; // must be a real mailbox on your domain
 $siteName = 'Fly Luxury Interiors';
 
 // ------------------------------
