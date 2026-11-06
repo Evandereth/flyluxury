@@ -1,3 +1,5 @@
+import Footer from "./components/Footer"
+import Contact from "./components/Contact"
 import Product from "./components/Product"
 import Services from "./components/Services"
 import Portfolio from "./components/Portfolio"
@@ -22,7 +24,9 @@ function App() {
         <Portfolio />
         <Services />
         <Product />
+        <Contact />
       </main>
+      <Footer />
     </div>
     </>
   )

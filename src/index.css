@@ -13,5 +13,6 @@
 }
 body{
     @apply bg-ivory text-ink font-sans font-light;
+    scroll-behavior: smooth;
     
 }

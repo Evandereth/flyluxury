@@ -17,11 +17,11 @@ const projects = [
     span: 'md:col-span-6', tone: 'from-ivory to-sand', height:'h-64 md:h-80 lg:h-[26rem]' },
   { title: 'Office Room(Reception)', type: 'Commercial', city: 'Port Harcourt', image: image3,
     span: 'md:col-span-5', tone: 'from-sand to-[#CDB991]', height:'h-64 md:h-80 lg:h-[26rem]' },
-  { title: 'Bedroom', type: 'Residential', city: 'Lagos', image: image2,
+  { title: 'Dining Room', type: 'Residential', city: 'Lagos', image: image5,
     span: 'md:col-span-9', tone: 'from-cream to-[#DDCDB0]', height:'h-64 md:h-80 lg:h-[26rem]' },
     { title: 'Living Room', type: 'Residential', city: 'Lagos', image: image6,
     span: 'md:col-span-8', tone: 'from-cream to-[#DDCDB0]', height:'h-64 md:h-80 lg:h-[26rem]' },
-    { title: 'Dining Room', type: 'Residential', city: 'Lagos', image: image5,
+    { title: 'Bedroom', type: 'Residential', city: 'Lagos', image: image2,
     span: 'md:col-span-6', tone: 'from-cream to-[#DDCDB0]', height:'h-64 md:h-80 lg:h-[26rem]' }
     
     
@@ -52,7 +52,7 @@ export default function Portfolio() {
                     src={p.image}
                     alt={`${p.title}, ${p.type} project in ${p.city}`}
                     loading="lazy"
-                    className="size-full object-cover transition-transform duration-700 group-hover:scale-105 rounded-2xl"
+                    className="size-full object-cover transition-transform duration-700 group-hover:scale-105 rounded-2xl "
                   />
                 ) : (
                   <div

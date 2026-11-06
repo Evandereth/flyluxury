@@ -2,10 +2,10 @@ import { useEffect, useState } from "react"
 import logo from "../img/logo.png"
 
 const navMenu = [
-    {id:1, label:"Services", href:'#services'},
-    {id:1, label:"Porfolio", href:'#work'},
-    {id:1, label:"Process", href:'#process'},
-    {id:1, label:"Contact", href:'#contact'},
+    {id:1, label:"Portfolio", href:'#work'},
+    {id:2, label:"Services", href:'#services'},
+    {id:3, label:"Process", href:'#process'},
+    {id:4, label:"Contact", href:'#contact'},
 
     
 ]
@@ -52,12 +52,13 @@ export default function Navbar() {
                                 <a href={link.href}>{link.label}</a> 
                             </li>
                         ))
+                    
                     }
                     </ul>
                 </div>
 
-                <button className="hidden lg:block uppercase border text-sm font-bold rounded-md py-2 px-4 cursor-pointer border-sand text-brass-dark transition-colors duration-300 hover:bg-brass-dark hover:text-sand">
-                    book a consultation
+                <button className="hidden lg:block uppercase border text-[.8em] lg:text-lg font-extralight rounded-md py-2 px-5 lg:my-5 cursor-pointer border-sand transition-colors duration-300 bg-ink text-ivory hover:bg-ivory hover:text-ink">
+                   <a href="#contact">book a Design consultation</a>  
                 </button>
 
 
@@ -98,10 +99,13 @@ export default function Navbar() {
                         {
                         navMenu.map((link) => (
                             <li key={link.id} className="mr-8 text-xl cursor-pointer">
-                                <a href={link.href}>{link.label}</a> 
+                                <a href={link.href} onClick={handleMenu}>
+                                    {link.label}
+                                </a> 
                             </li>
 
                         ))
+                    
                     }
                     
                 </ul>

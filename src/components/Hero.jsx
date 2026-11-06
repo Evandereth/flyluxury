@@ -21,8 +21,8 @@ export default function Hero() {
                         </Animation>
                         
 
-                        <button className="lg:block uppercase border text-[.8em] lg:text-lg font-extralight rounded-md py-2 px-5 lg:my-5 cursor-pointer border-sand transition-colors duration-300 bg-ink text-ivory hover:bg-ivory hover:text-ink ">
-                            book a Design consultation
+                        <button className="lg:block uppercase border text-[.8em] lg:text-lg font-extralight rounded-md py-2 px-5 lg:my-5 cursor-pointer border-sand transition-colors duration-300 bg-ink text-ivory hover:bg-ivory hover:text-ink">
+                           <a href="#contact">book a Design consultation</a> 
                         </button>
                     </div>
                 </Animation>

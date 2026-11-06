@@ -7,7 +7,7 @@ export default function Services(){
 
     const serviceCard = [
         {id: "01", title:"Residential", caption:"Full-home design, from layout and journey to furniture and finishing touches"},
-        {id: "02", title:"Commercial", caption:"Boutiques, restaurant adn offices with a distinct, memorable atmosphere"},
+        {id: "02", title:"Commercial", caption:"Boutiques, restaurant and offices with a distinct, memorable atmosphere"},
         {id: "03", title:"Styling", caption:"Art, textiles and objects curated to finish a room you already love"}
     ]
 
@@ -34,12 +34,12 @@ export default function Services(){
 
                         {
                             serviceCard.map((card)=>(
-                                <div key={card.id} className="flex min-h-48 flex-col items-start justify-between rounded-2xl border border-brass p-5 sm:min-h-52 lg:min-h-64">
+                                <div key={card.id} className="flex min-h-48 flex-col items-start justify-start rounded-2xl border border-brass p-5 sm:min-h-52 lg:min-h-64 pt-5">
                                     <h2 className="text-brass-dark font-serif text-xl">
                                         {card.id}
                                     </h2>
 
-                                    <h1 className="text-brass-dark text-xl font-medium uppercase">
+                                    <h1 className="text-brass-dark text-xl font-medium uppercase my-5">
                                         {card.title}
                                 </h1>
                                 <p className="text-sm sm:text-base lg:text-lg">
